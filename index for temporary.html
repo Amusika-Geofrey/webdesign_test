@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students ICT Centre</title>
+    <link rel="stylesheet" href="../web test/style-new for temporary.css">
+</head>
+<body>
+    <header>
+        <h1>Students ICT Centre</h1>
+        <p>Learn useful technology skills</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about-us">About Us</a>
+        <a href="#courses">Courses</a>
+        <a href="#timetable">Timetable</a>
+        <a href="#registration">Registration</a>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>Welcome</h2>
+            <p>Welcome to the Students ICT Centre. We help students improve their computer skills.</p>
+        </section>
+
+        <section id="about-us">
+            <h2>About Us</h2>
+            <p>We provide technology training through certified experts.</p>
+            <p>We are located at Garden City Complex.</p>
+            <img class="about-image" src="../web test/web photos.jpg" alt="Students learning ICT skills">
+        </section>
+
+        <section id="courses">
+            <h2>Courses</h2>
+            <ul>
+                <li>Cybersecurity</li>
+                <li>Web Development</li>
+                <li>Database Management</li>
+                <li>Computer Networking</li>
+            </ul>
+        </section>
+
+        <section id="timetable">
+            <h2>Timetable</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Course</th>
+                        <th>Time</th>
+                        <th>Instructor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>Cybersecurity</td>
+                        <td>9am - 12pm</td>
+                        <td>Ms. Grace</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>Web Development</td>
+                        <td>2pm - 5pm</td>
+                        <td>Mr. Peter</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>Database Management</td>
+                        <td>10am - 1pm</td>
+                        <td>Ms. Linda</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td>Computer Networking</td>
+                        <td>9am - 12pm</td>
+                        <td>Mr. James</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>Web Development</td>
+                        <td>1pm - 4pm</td>
+                        <td>Mr. Peter</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday</td>
+                        <td>Cybersecurity</td>
+                        <td>10am - 1pm</td>
+                        <td>Ms. Grace</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="registration">
+            <h2>Registration</h2>
+            <p>Follow these steps to register:</p>
+            <ol>
+                <li>Choose your preferred course.</li>
+                <li>Complete the registration form.</li>
+                <li>Submit your student details.</li>
+                <li>Pay the registration fee and wait for confirmation.</li>
+            </ol>
+
+            <form>
+                <label for="full-name">Full Name</label>
+                <input id="full-name" type="text" required>
+
+                <label for="student-number">Student Number</label>
+                <input id="student-number" type="text" required>
+
+                <label for="email">Email Address</label>
+                <input id="email" type="email" required>
+
+                <label for="gender">Gender</label>
+                <select id="gender" required>
+                    <option value="">Select gender</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+
+                <label for="course">Preferred Course</label>
+                <select id="course" required>
+                    <option>Cybersecurity</option>
+                    <option>Web Development</option>
+                    <option>Database Management</option>
+                    <option>Computer Networking</option>
+                </select>
+
+                <label for="study-mode">Study Mode</label>
+                <select id="study-mode">
+                    <option>Online</option>
+                    <option>Physical</option>
+                    <option>Hybrid</option>
+                </select>
+
+                <button type="submit">Submit Registration</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>&copy; 2026 Students ICT Centre</footer>
+</body>
+</html>
